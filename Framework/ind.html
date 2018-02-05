@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>resproject</title>
+	<link rel="stylesheet" href="css/style1.css" type="text/css" >
+	<script src="js/jquery.js"></script>
+	<script>
+		var showWidth=1;
+		
+		if(showWidth==1)
+		{
+			$(document).ready(function()
+			{
+				$(window).resize(function()
+				{
+					var width = $(window).width();
+					document.getElementById('output_width').innerHTML="Window width:"+width.toString();
+				});
+			});
+		
+		}
+	</script>
+</head>
+<body>
+	<div id="output_width"></div>
+	<div id="container">
+		<header class="main-header">
+			<img id="logo" src="images/logo.png" alt="Resproject" >
+			<nav class="main-nav">
+				<ul>
+					<li><a class="active" href="#">Home</a></li>
+					<li><a href="#">Learn</a></li>
+					<li><a href="#">Brainstorm</a></li>
+					<li><a href="#">Create</a></li>
+					<li><a href="#">Collaborate</a></li>
+					<li><a href="#">Teach</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="main">
+			<div id="content">
+				<article class="art1">
+					<header class="art-header">
+						<h2 class="title"><a href="#">First post</a></h2>
+						<span>Created By: Bipul jee </span>
+					</header>
+					Self-control is the ability to control impulses and reactions, and is another name for self-discipline.
+						It is not some kind of negative and limiting behavior, as some people might think. 
+						When self-control is used wisely and with common sense, 
+						it becomes one of the most important tools for self improvement and for achieving success.
+
+
+						Self-control is the ability to control impulses and reactions, and is another name for self-discipline.
+
+							It is not some kind of negative and limiting behavior, as some people might think. When self-control
+							is used wisely and with common sense, it becomes one of the most important tools for self improvement 
+							and for achieving success.
+
+							Self control is vital for overcoming obsessions, fears, addictions, and any kind of unsuitable behavior. 
+													
+					<a class="read_more" href="#">read more</a>
+				</article>
+				<article class="art2">
+					<header class="art-header">
+						<h2 class="title"><a href="#">Second post</a></h2>
+						<span>Created By: Bipul jee </span>
+					</header>
+					Willpower refers to the strong determination to do something that is considered difficult.
+					It is required to get over difficulties and temptations.
+					A strong-willed person is able to carry out his decisions.
+					He has full control over his thoughts and behavior.
+
+					Willpower refers to the strong determination to do something that is considered difficult. 
+					It is required to get over difficulties and temptations.
+
+					A strong-willed person is able to carry out his decisions. He has full control over his thoughts
+					 and behavior.
+
+					We all know what is right, and we are eloquent in preaching it to others; but in the practical 
+					doing of right, we find ourselves weak and powerless. 
+					<a class="reaf_more" href="#">read more</a>
+				</article>
+			</div>
+			<aside id="sidebar">
+				<div class="block">
+					<h2>Top sidebar</h2>
+					 If you’re a college student trying to pick a major that will maximize your career prospects,
+					it’s no secret that computer science is a good choice. 			
+				</div>
+				
+				<div class="block">
+					<h2>Mid sidebar</h2>
+					Working as a Web developer is something like playing a sport with a continuously changing set of rules.
+					One minute you’re charging down the field at full throttle.
+					
+  	
+				</div>
+				
+				<div class="block">
+					<h2>Bottom sidebar</h2>
+					HTML programmers write code for web sites and web-based applications using the Hyper Text Markup Language (HTML).
+					They are hired by all kinds of companies to help them grow their web-based products and property.	
+				</div>
+			<aside>
+		</div>
+		<div class="clr"></div>
+		<footer>
+			<p>Copyright by 2018  </p>
+		</footer>
+	</div>
+</body>
+</html>
